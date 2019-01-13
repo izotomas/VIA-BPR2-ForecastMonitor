@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>05f495a1-551b-4985-a16c-23941b6dd5bf</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>ForecastMonitor.Shared</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="$(MSBuildThisFileDirectory)TestData\ForecastSystem\models.json" />
+    <Content Include="$(MSBuildThisFileDirectory)TestData\ForecastSystem\time_series.json" />
+    <Content Include="$(MSBuildThisFileDirectory)TestData\ForecastSystem\predictions.json" />
+    <Content Include="$(MSBuildThisFileDirectory)TestData\ForecastSystem\clients.json" />
+    <Content Include="$(MSBuildThisFileDirectory)TestData\ForecastSystem\model.json" />
+    <Content Include="$(MSBuildThisFileDirectory)TestData\ForecastSystem\unit_keys.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)FluentMockServerExtensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)TestHelper.cs" />
+  </ItemGroup>
+</Project>

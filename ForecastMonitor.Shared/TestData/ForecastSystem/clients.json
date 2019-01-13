@@ -1,0 +1,14 @@
+[
+  {
+    "ts_start_days_ago": 1,
+    "client_id": 2015,
+    "client_key": "PatientCapacity",
+    "aux_start_days_ago": 0
+  },
+  {
+    "ts_start_days_ago": 0,
+    "client_id": 2016,
+    "client_key": "CleaningCapacity",
+    "aux_start_days_ago": 0
+  }
+]

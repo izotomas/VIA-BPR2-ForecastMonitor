@@ -1,0 +1,11 @@
+<section class="client">
+    <header class="primary-border-hover" [ngClass]="{'collapsed': status !== UnitStatus.Red}" fxLayoutGap="1rem" data-toggle="collapse" [attr.data-target]="'#client-content-' + id" aria-expanded="false" [attr.aria-controls]="'client-content-' + id">
+        <p class="mb-0 client-name">{{name}}</p>
+        <app-performance-indicator [status]="status"></app-performance-indicator>
+    </header>
+    <div class="collapse" [ngClass]="{'show': status == UnitStatus.Red}" id="client-content-{{id}}">
+        <div class="content">
+            <app-model *ngFor="let model of activeModels$ | async" [model]="model" [label]="unitLabel"></app-model>
+        </div>
+    </div>
+</section>

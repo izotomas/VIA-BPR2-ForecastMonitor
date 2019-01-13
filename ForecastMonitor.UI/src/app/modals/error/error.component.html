@@ -1,0 +1,11 @@
+<h2 mat-dialog-title>Error</h2>
+<mat-dialog-content>
+    <div class="message" *ngIf="attempt; else unreachable">
+        <h6>Failed to {{operation}}!</h6>
+        Retry attempt #{{attempt}}
+    </div>
+</mat-dialog-content>
+
+<ng-template #unreachable>
+    Server is unreachable
+</ng-template>

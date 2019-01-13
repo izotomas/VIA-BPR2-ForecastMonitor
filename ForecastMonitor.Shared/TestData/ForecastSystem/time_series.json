@@ -1,0 +1,19 @@
+[
+  {
+    "unit_key_id": 416,
+    "label": 15,
+    "date": "2018-09-15T09:30:00+00:00",
+    "unit_key": {
+      "name": "Endokrinologisk - 8V",
+      "unit_key": "0452B832-85BC-4457-84BF-738B509DDE45_PatientsAtDepartment",
+      "unit_key_id": 416,
+      "client": {
+        "aux_start_days_ago": 0,
+        "client_key": "PatientCapacity",
+        "client_id": 2015,
+        "ts_start_days_ago": 1
+      },
+      "client_id": 2015
+    }
+  }
+]

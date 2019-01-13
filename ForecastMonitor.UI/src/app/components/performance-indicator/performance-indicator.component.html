@@ -1,0 +1,6 @@
+<div [ngSwitch]="status">
+    <span *ngSwitchCase="UnitStatus.Yellow" class="badge badge-pill badge-warning">&nbsp;</span>
+    <span *ngSwitchCase="UnitStatus.Red" class="badge badge-pill badge-danger">&nbsp;</span>
+    <span *ngSwitchCase="UnitStatus.Green" class="badge badge-pill badge-success">&nbsp;</span>
+    <span *ngSwitchDefault class="badge badge-pill badge-secondary">&nbsp;</span>
+</div>

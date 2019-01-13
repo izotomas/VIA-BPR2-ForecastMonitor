@@ -1,0 +1,26 @@
+﻿[
+  {
+    "name": "Client One",
+    "last_update": "2018-10-05T16:10:22",
+    "id": 1,
+    "installation_id": 2
+  },
+  {
+    "name": "Client Two",
+    "last_update": "2018-10-05T16:10:22",
+    "id": 2,
+    "installation_id": 2
+  },
+  {
+    "name": "Client Three",
+    "last_update": "2018-10-05T16:10:22",
+    "id": 3,
+    "installation_id": 2
+  },
+  {
+    "name": "Client One",
+    "last_update": "2018-10-05T16:10:22",
+    "id": 1,
+    "installation_id": 1
+  }
+]

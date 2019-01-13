@@ -1,0 +1,25 @@
+<mat-card class="accent-background" routerLink="model/{{installation_id}}/{{id}}">
+    <mat-card-content *ngIf="!loading; else progress">
+        <div class="card-column">
+            <div class="mb-0 model-name">
+                <span [matTooltip]="name || 'Unit not found: ' + id">{{name || 'Unit not found: ' + id | truncate:15:'...'}}</span>
+            </div>
+            <span class="mae-lable" *ngIf="label; else progress">{{label}}</span>
+        </div>
+        <div class="card-column nested">
+            <div class="card-column center">
+                <div class="mae-indicator">
+                    <app-performance-indicator [status]="performance"></app-performance-indicator>
+                </div>
+                <span class="mae-value">{{mae}}</span>
+            </div>
+            <div class="card-column">
+                <mat-icon>chevron_right</mat-icon>
+            </div>
+        </div>
+    </mat-card-content>
+</mat-card>
+
+<ng-template #progress>
+    <mat-progress-bar mode="indeterminate"></mat-progress-bar>
+</ng-template>

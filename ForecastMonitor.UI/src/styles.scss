@@ -1,0 +1,81 @@
+@import '~@angular/material/theming';
+@import 'assets/dabai-pallete';
+
+/* Primary theme */
+@include mat-core();
+$app-primary: mat-palette($md-dabai);
+$app-accent: mat-palette($md-dabai, 400);
+$app-warn: mat-palette($md-dabai, A700);
+$app-theme: mat-light-theme($app-primary, $app-accent, $app-warn);
+@include angular-material-theme($app-theme);
+
+/* Execute the theme grabber to generate classes based on the theme */
+@import 'assets/theme-grabber';
+@include theme-color-grabber($app-theme);
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background: #FFFFFF;
+    background-color: #FFFFFF;
+}
+
+h1, h2, h3, p, .legend-label-text {
+    font-family: 'Roboto', sans-serif;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+h2 {
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.page {
+    min-height: 90.7vh;
+}
+
+a {
+    cursor: pointer;
+}
+
+.mat-tooltip, .ngx-charts-tooltip-content.type-tooltip {
+    padding: 10px 16px !important;
+    background-color: #264259 !important;
+    border-radius: 1px !important;
+    max-width: 500px !important;
+    font-size: 0.9rem;
+}
+
+.error-modal {
+    mat-dialog-container {
+        color: white;
+        background-color: mat-color($app-warn);
+    }
+}
+
+[hideXAxisTicks] {
+    [ngx-charts-x-axis-ticks] {
+        >g {
+            ~g {
+                display: none;
+            }
+        }
+    }
+}
+
+[hideYAxisTicks] {
+    [ngx-charts-y-axis-ticks] {
+        >g {
+            ~g {
+                display: none;
+            }
+        }
+    }
+}

@@ -1,0 +1,76 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="chromedriver.exe" />
+    <None Remove="TestData\clients\pp4_1.json" />
+    <None Remove="TestData\clients\three_clients.json" />
+    <None Remove="TestData\clients\two_clients.json" />
+    <None Remove="TestData\default\clients.json" />
+    <None Remove="TestData\default\installations.json" />
+    <None Remove="TestData\default\signalr.json" />
+    <None Remove="TestData\default\units.json" />
+    <None Remove="TestData\installations\two_installations.json" />
+    <None Remove="TestData\units\green.json" />
+    <None Remove="TestData\units\grey.json" />
+    <None Remove="TestData\units\long_unit_name.json" />
+    <None Remove="TestData\units\null_unit_name.json" />
+    <None Remove="TestData\units\pp5_3\green_grey.json" />
+    <None Remove="TestData\units\pp5_3\grey_only.json" />
+    <None Remove="TestData\units\pp5_3\grey_red.json" />
+    <None Remove="TestData\units\pp5_3\red_0_mae.json" />
+    <None Remove="TestData\units\pp5_3\yellow_green.json" />
+    <None Remove="TestData\units\pp5_2\green_grey.json" />
+    <None Remove="TestData\units\pp5_2\grey_only.json" />
+    <None Remove="TestData\units\pp5_2\grey_red.json" />
+    <None Remove="TestData\units\pp5_2\yellow_green.json" />
+    <None Remove="TestData\units\PP4_1.json" />
+    <None Remove="TestData\units\red.json" />
+    <None Remove="TestData\units\yellow.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="TestData\clients\pp4_1.json" />
+    <Content Include="TestData\clients\three_clients.json" />
+    <Content Include="TestData\clients\two_clients.json" />
+    <Content Include="TestData\default\clients.json" />
+    <Content Include="TestData\default\installations.json" />
+    <Content Include="TestData\installations\two_installations.json" />
+    <Content Include="TestData\signalr.json" />
+    <Content Include="TestData\default\units.json" />
+    <Content Include="TestData\units\green.json" />
+    <Content Include="TestData\units\grey.json" />
+    <Content Include="TestData\units\long_unit_name.json" />
+    <Content Include="TestData\units\null_unit_name.json" />
+    <Content Include="TestData\units\pp5_3\green_grey.json" />
+    <Content Include="TestData\units\pp5_3\grey_only.json" />
+    <Content Include="TestData\units\pp5_3\grey_red.json" />
+    <Content Include="TestData\units\red_0_mae.json" />
+    <Content Include="TestData\units\pp5_3\yellow_green.json" />
+    <Content Include="TestData\units\pp5_2\green_grey.json" />
+    <Content Include="TestData\units\pp5_2\grey_only.json" />
+    <Content Include="TestData\units\pp5_2\grey_red.json" />
+    <Content Include="TestData\units\pp5_2\yellow_green.json" />
+    <Content Include="TestData\units\red.json" />
+    <Content Include="TestData\units\yellow.json" />
+    <Content Include="TestData\units\pp4_1.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentAssertions" Version="5.4.2" />
+    <PackageReference Include="Handlebars.Net" Version="1.9.5" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.8.0" />
+    <PackageReference Include="NUnit" Version="3.10.1" />
+    <PackageReference Include="NUnit3TestAdapter" Version="3.10.0" />
+    <PackageReference Include="Selenium.WebDriver" Version="3.14.0" />
+    <PackageReference Include="WireMock.Net" Version="1.0.4.17" />
+    <PackageReference Include="WireMock.Net.StandAlone" Version="1.0.4.17" />
+  </ItemGroup>
+
+  <Import Project="..\ForecastMonitor.Shared\ForecastMonitor.Shared.projitems" Label="Shared" />
+
+</Project>

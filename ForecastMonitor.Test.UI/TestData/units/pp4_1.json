@@ -1,0 +1,66 @@
+﻿[
+  
+  {
+    "name": "Green Unit",
+    "last_update": "2018-10-05T16:10:22",
+    "id": 415,
+    "client_id": 1,
+    "installation_id": 1,
+    "mae": 1,
+    "performance": "Green"
+  },
+  {
+    "name": "Green Unit",
+    "last_update": "2018-10-05T16:10:22",
+    "id": 410,
+    "client_id": 1,
+    "installation_id": 2,
+    "mae": 1,
+    "performance": "Green"
+  },
+  {
+    "name": "Green Unit",
+    "last_update": "2018-10-05T16:10:22",
+    "id": 410,
+    "client_id": 2,
+    "installation_id": 2,
+    "mae": 7,
+    "performance": "Green"
+  },
+  {
+    "name": "Grey Unit",
+    "last_update": "2018-10-05T16:10:22",
+    "id": 410,
+    "client_id": 2,
+    "installation_id": 2,
+    "mae": 6,
+    "performance": "Grey"
+  },
+  {
+    "name": "Yellow Unit",
+    "last_update": "2018-10-05T16:10:22",
+    "id": 410,
+    "client_id": 2,
+    "installation_id": 2,
+    "mae": 1,
+    "performance": "Yellow"
+  },
+  {
+    "name": "Red Unit",
+    "last_update": "2018-10-05T16:10:22",
+    "id": 410,
+    "client_id": 2,
+    "installation_id": 2,
+    "mae": 1,
+    "performance": "Red"
+  },
+  {
+    "name": "Yellow Unit",
+    "last_update": "2018-10-05T16:10:22",
+    "id": 410,
+    "client_id": 3,
+    "installation_id": 2,
+    "mae": 1,
+    "performance": "Yellow"
+  }
+]

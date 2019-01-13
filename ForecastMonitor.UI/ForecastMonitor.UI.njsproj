@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1b529d67-aee3-46d4-aaeb-cdfe40b78ec7}</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <ProjectView>ProjectFiles</ProjectView>
+    <StartupFile />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{3AF33F2E-1136-4D97-BBB7-1795711AC8B8};{349c5851-65df-11da-9384-00065b846f21};{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}</ProjectTypeGuids>
+    <TypeScriptSourceMap>true</TypeScriptSourceMap>
+    <TypeScriptModuleKind>CommonJS</TypeScriptModuleKind>
+    <EnableTypeScript>true</EnableTypeScript>
+    <TypeScriptToolsVersion>3.0</TypeScriptToolsVersion>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">14.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+    <LastActiveSolutionConfig>Debug|Any CPU</LastActiveSolutionConfig>
+    <StartWebBrowser>True</StartWebBrowser>
+    <SaveNodeJsSettingsInProjectFile>True</SaveNodeJsSettingsInProjectFile>
+    <NameOfLastUsedPublishProfile>DebugForecastMonitor.UI</NameOfLastUsedPublishProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup Condition=" '$(Configuration)' == 'Test' ">
+    <OutputPath>bin\Test\</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include=".jsbeautifyrc" />
+    <Content Include=".jshintrc" />
+    <Content Include="angular.json" />
+    <Content Include="package.json" />
+    <Content Include="src\app\**\*.scss" />
+    <Content Include="src\browserslist" />
+    <Content Include="src\styles.scss" />
+    <Content Include="tsconfig.json" />
+    <Content Include="tslint.json" />
+    <Content Include="README.md" />
+    <Content Include="e2e\tsconfig.e2e.json" />
+    <Content Include="src\index.html" />
+    <Content Include="src\favicon.ico" />
+    <Content Include="src\tsconfig.app.json" />
+    <Content Include="src\tsconfig.spec.json" />
+    <Content Include="src\tslint.json" />
+    <TypeScriptCompile Include="src\main.ts" />
+    <TypeScriptCompile Include="src\polyfills.ts" />
+    <TypeScriptCompile Include="src\test.ts" />
+    <TypeScriptCompile Include="e2e\src\**\*.ts" />
+    <Content Include="src\assets\**\*.json" />
+    <Content Include="src\assets\**\*.css" />
+    <Content Include="src\**\*.html" />
+    <TypeScriptCompile Include="src\app\app-routing.module.ts" />
+    <TypeScriptCompile Include="src\app\app.component.spec.ts" />
+    <TypeScriptCompile Include="src\app\app.component.ts" />
+    <TypeScriptCompile Include="src\app\app.module.ts" />
+    <TypeScriptCompile Include="src\app\components\dashboard\client\client.component.spec.ts" />
+    <TypeScriptCompile Include="src\app\components\dashboard\client\client.component.ts" />
+    <TypeScriptCompile Include="src\app\components\dashboard\dashboard.component.spec.ts" />
+    <TypeScriptCompile Include="src\app\components\dashboard\dashboard.component.ts" />
+    <TypeScriptCompile Include="src\app\components\dashboard\installation\installation.component.spec.ts" />
+    <TypeScriptCompile Include="src\app\components\dashboard\installation\installation.component.ts" />
+    <TypeScriptCompile Include="src\app\components\dashboard\model\model.component.spec.ts" />
+    <TypeScriptCompile Include="src\app\components\dashboard\model\model.component.ts" />
+    <TypeScriptCompile Include="src\app\components\navigation\navigation.component.spec.ts" />
+    <TypeScriptCompile Include="src\app\components\navigation\navigation.component.ts" />
+    <TypeScriptCompile Include="src\app\components\performance-indicator\performance-indicator.component.spec.ts" />
+    <TypeScriptCompile Include="src\app\components\performance-indicator\performance-indicator.component.ts" />
+    <TypeScriptCompile Include="src\app\enums\unit-status.enum.ts" />
+    <TypeScriptCompile Include="src\app\interfaces\iclient.ts" />
+    <TypeScriptCompile Include="src\app\interfaces\iinstallation.ts" />
+    <TypeScriptCompile Include="src\app\interfaces\iunit.ts" />
+    <TypeScriptCompile Include="src\app\material\material.module.spec.ts" />
+    <TypeScriptCompile Include="src\app\material\material.module.ts" />
+    <TypeScriptCompile Include="src\app\modals\error\error.component.spec.ts" />
+    <TypeScriptCompile Include="src\app\modals\error\error.component.ts" />
+    <TypeScriptCompile Include="src\app\pipes\truncate.pipe.spec.ts" />
+    <TypeScriptCompile Include="src\app\pipes\truncate.pipe.ts" />
+    <TypeScriptCompile Include="src\app\services\data.service.spec.ts" />
+    <TypeScriptCompile Include="src\app\services\data.service.ts" />
+    <TypeScriptCompile Include="src\app\services\error-handler.service.spec.ts" />
+    <TypeScriptCompile Include="src\app\services\error-handler.service.ts" />
+    <TypeScriptCompile Include="src\app\services\translation.service.spec.ts" />
+    <TypeScriptCompile Include="src\app\services\translation.service.ts" />
+    <TypeScriptCompile Include="src\environments\environment.prod.ts" />
+    <TypeScriptCompile Include="src\environments\environment.test.ts" />
+    <TypeScriptCompile Include="src\environments\environment.ts" />
+    <TypeScriptCompile Include="src\main.ts" />
+    <TypeScriptCompile Include="src\polyfills.ts" />
+    <TypeScriptCompile Include="src\test.ts" />
+    <TypeScriptCompile Include="src\app\components\dashboard\client\client.component.spec.ts" />
+    <TypeScriptCompile Include="src\app\components\dashboard\client\client.component.ts" />
+    <TypeScriptCompile Include="src\app\components\dashboard\installation\installation.component.spec.ts" />
+    <TypeScriptCompile Include="src\app\components\dashboard\installation\installation.component.ts" />
+    <TypeScriptCompile Include="src\app\components\performance-indicator\performance-indicator.component.spec.ts" />
+    <TypeScriptCompile Include="src\app\components\performance-indicator\performance-indicator.component.ts" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="e2e" />
+    <Folder Include="e2e\src" />
+    <Folder Include="src" />
+    <Folder Include="src\app" />
+    <Folder Include="src\app\components" />
+    <Folder Include="src\app\components\dashboard" />
+    <Folder Include="src\app\components\dashboard\client\" />
+    <Folder Include="src\app\components\dashboard\installation\" />
+    <Folder Include="src\app\components\dashboard\model" />
+    <Folder Include="src\app\components\model-performance\" />
+    <Folder Include="src\app\components\navigation" />
+    <Folder Include="src\app\components\performance-indicator\" />
+    <Folder Include="src\app\enums" />
+    <Folder Include="src\app\interfaces" />
+    <Folder Include="src\app\material" />
+    <Folder Include="src\app\modals\" />
+    <Folder Include="src\app\modals\error\" />
+    <Folder Include="src\app\pipes" />
+    <Folder Include="src\app\services" />
+    <Folder Include="src\assets" />
+    <Folder Include="src\environments" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="e2e\protractor.conf.js" />
+    <Compile Include="src\karma.conf.js" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <!--Do not delete the following Import Project.  While this appears to do nothing it is a marker for setting TypeScript properties before our import that depends on them.-->
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="False" />
+  <Import Project="$(VSToolsPath)\Node.js Tools\Microsoft.NodejsTools.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:48022/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>True</UseCustomServer>
+          <CustomServerUrl>http://localhost:1337</CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}" User="">
+        <WebProjectProperties>
+          <StartPageUrl>
+          </StartPageUrl>
+          <StartAction>CurrentPage</StartAction>
+          <AspNetDebugging>True</AspNetDebugging>
+          <SilverlightDebugging>False</SilverlightDebugging>
+          <NativeDebugging>False</NativeDebugging>
+          <SQLDebugging>False</SQLDebugging>
+          <ExternalProgram>
+          </ExternalProgram>
+          <StartExternalURL>
+          </StartExternalURL>
+          <StartCmdLineArguments>
+          </StartCmdLineArguments>
+          <StartWorkingDirectory>
+          </StartWorkingDirectory>
+          <EnableENC>False</EnableENC>
+          <AlwaysStartWebServerOnDebug>False</AlwaysStartWebServerOnDebug>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

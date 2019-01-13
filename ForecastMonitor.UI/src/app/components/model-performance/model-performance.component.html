@@ -1,0 +1,44 @@
+<div class="model-performance container" *ngIf="(plot$ | async) as plot; else loading">
+    <div class="page-header">
+        <h2>{{plot.unit_name || 'Name not found'}}</h2>
+        <small class="text-muted">{{plot.unit_key}}</small>
+    </div>
+
+    <div class="layout">
+        <div class="line-section">
+            <div class="graph" *ngIf="!fetchingData; else fetching" id="graph-container">
+                <ngx-charts-line-chart *ngIf="plot.hasData; else noData" [scheme]="colorScheme" [results]="plot.data" [xAxis]="showXAxis" [xAxisTickFormatting]="xAxisFormat" [xAxisTicks]="xAxisTicks" [yAxis]="showYAxis" [showXAxisLabel]="showXAxisLabel" [showYAxisLabel]="showYAxisLabel" [xAxisLabel]="xAxisLabel" [yAxisLabel]="yAxisLabel" [autoScale]="autoScale">
+                    <ng-template #tooltipTemplate let-model="model">
+                        <span>{{model.series}} &bull; {{model.name | date:'dd/MM HH:mm'}}</span><br>
+                        <h6>{{model.value}}</h6>
+                    </ng-template>
+                </ngx-charts-line-chart>
+            </div>
+            <div class="interval">
+                <strong [matTooltipPosition]="'above'" [matTooltip]="'How many weeks back in time do you want to see in the graph?'">Time interval</strong>
+                <span>{{maxInterval}} weeks</span>
+                <mat-slider (change)="onIntervalChange($event.value)" vertical [min]="minInterval" [max]="maxInterval" step="1" [value]="interval" tickInterval="1" color="primary"></mat-slider>
+                <span>{{minInterval}} week{{ minInterval > 1 ? 's' : ''}}</span>
+            </div>
+        </div>
+        <div class="model-performance-table"></div>
+        <div class="buttons" fxLayoutGap="1rem" *ngIf="!retrainRequest; else loading">
+            <button mat-raised-button color="primary" (click)="retrainModel()">Retrain</button>
+            <button mat-raised-button color="primary" routerLink="/">Back</button>
+        </div>
+    </div>
+</div>
+
+<ng-template #loading>
+    <mat-progress-bar mode="indeterminate"></mat-progress-bar>
+</ng-template>
+
+<ng-template #fetching>
+    <div class="graph">
+        <mat-progress-bar mode="indeterminate"></mat-progress-bar>
+    </div>
+</ng-template>
+
+<ng-template #noData>
+    <div id="no-data-alert" class="alert alert-info">There is no data for this interval!</div>
+</ng-template>

@@ -1,0 +1,18 @@
+<section class="installation">
+    <header class="primary-border-hover" fxLayoutGap="1rem" data-toggle="collapse" [attr.data-target]="'#installation-content-' + id" aria-expanded="false" [attr.aria-controls]="'installation-content-' + id">
+        <h5 class="mb-0 installation-name">{{name}}</h5>
+        <app-performance-indicator [status]="status"></app-performance-indicator>
+    </header>
+    <div class="collapse show" id="installation-content-{{id}}">
+        <div id="clients-section" fxLayout="column" fxLayoutAlign="center" fxLayoutGap="1rem" *ngIf="(clients$ | async) as clients; else loading">
+            <app-client *ngFor="let client of clients" [model]="client" [unitLabel]="unitLabel" (reportStatus)="updateInstallationStatus($event)"></app-client>
+            <span class="alert alert-danger" *ngIf="!clients.length">
+                Failed to retreive clients from the server!
+            </span>
+        </div>
+    </div>
+</section>
+
+<ng-template #loading>
+    <mat-progress-bar mode="indeterminate"></mat-progress-bar>
+</ng-template>

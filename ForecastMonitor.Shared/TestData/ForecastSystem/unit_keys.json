@@ -1,0 +1,494 @@
+[
+  {
+    "client_id": 2016,
+    "name": null,
+    "client": {
+      "ts_start_days_ago": 0,
+      "client_id": 2016,
+      "client_key": "CleaningCapacity",
+      "aux_start_days_ago": 0
+    },
+    "unit_key": "399718e6-577e-47b9-8c1d-cd82a6c9e7b7",
+    "unit_key_id": 313
+  },
+  {
+    "client_id": 2016,
+    "name": null,
+    "client": {
+      "ts_start_days_ago": 0,
+      "client_id": 2016,
+      "client_key": "CleaningCapacity",
+      "aux_start_days_ago": 0
+    },
+    "unit_key": "ae094424-2fad-4505-8c36-64a6d296a82b",
+    "unit_key_id": 314
+  },
+  {
+    "client_id": 2016,
+    "name": null,
+    "client": {
+      "ts_start_days_ago": 0,
+      "client_id": 2016,
+      "client_key": "CleaningCapacity",
+      "aux_start_days_ago": 0
+    },
+    "unit_key": "f36c31c4-d6f8-4f5e-87c1-e4d357b014d9",
+    "unit_key_id": 315
+  },
+  {
+    "client_id": 2015,
+    "name": "Apopleksi - 6Ø",
+    "client": {
+      "ts_start_days_ago": 1,
+      "client_id": 2015,
+      "client_key": "PatientCapacity",
+      "aux_start_days_ago": 0
+    },
+    "unit_key": "DA5BAFCC-2C6D-4A17-99FF-84B6AFE85AE9_PatientsAtDepartment",
+    "unit_key_id": 410
+  },
+  {
+    "client_id": 2015,
+    "name": "Lungemedicinsk - 6V",
+    "client": {
+      "ts_start_days_ago": 1,
+      "client_id": 2015,
+      "client_key": "PatientCapacity",
+      "aux_start_days_ago": 0
+    },
+    "unit_key": "A87C662C-08EC-4E2B-9ECF-88B09F3CD6B2_PatientsAtDepartment",
+    "unit_key_id": 411
+  },
+  {
+    "client_id": 2015,
+    "name": "Infektionsmedicinsk - 7Ø",
+    "client": {
+      "ts_start_days_ago": 1,
+      "client_id": 2015,
+      "client_key": "PatientCapacity",
+      "aux_start_days_ago": 0
+    },
+    "unit_key": "8389C322-A19B-40A4-9E29-37389353644B_PatientsAtDepartment",
+    "unit_key_id": 412
+  },
+  {
+    "client_id": 2015,
+    "name": "Hæmatologisk - 7V",
+    "client": {
+      "ts_start_days_ago": 1,
+      "client_id": 2015,
+      "client_key": "PatientCapacity",
+      "aux_start_days_ago": 0
+    },
+    "unit_key": "ACDE179B-952E-4943-A0BC-A1FF9A3E0DCA_PatientsAtDepartment",
+    "unit_key_id": 413
+  },
+  {
+    "client_id": 2015,
+    "name": "Nyremedicinsk/reumatologisk - 8Ø",
+    "client": {
+      "ts_start_days_ago": 1,
+      "client_id": 2015,
+      "client_key": "PatientCapacity",
+      "aux_start_days_ago": 0
+    },
+    "unit_key": "31E19C7F-B67A-4CD4-B7D5-6ED8A4FE5B57_PatientsAtDepartment",
+    "unit_key_id": 414
+  },
+  {
+    "client_id": 2015,
+    "name": "Geriatrisk - 8V",
+    "client": {
+      "ts_start_days_ago": 1,
+      "client_id": 2015,
+      "client_key": "PatientCapacity",
+      "aux_start_days_ago": 0
+    },
+    "unit_key": "A979A67D-C870-42EB-B5F1-D0ACD207B9CF_PatientsAtDepartment",
+    "unit_key_id": 415
+  },
+  {
+    "client_id": 2015,
+    "name": "Endokrinologisk - 8V",
+    "client": {
+      "ts_start_days_ago": 1,
+      "client_id": 2015,
+      "client_key": "PatientCapacity",
+      "aux_start_days_ago": 0
+    },
+    "unit_key": "0452B832-85BC-4457-84BF-738B509DDE45_PatientsAtDepartment",
+    "unit_key_id": 416
+  },
+  {
+    "client_id": 2015,
+    "name": "Med. gastroenterologisk - 9Ø",
+    "client": {
+      "ts_start_days_ago": 1,
+      "client_id": 2015,
+      "client_key": "PatientCapacity",
+      "aux_start_days_ago": 0
+    },
+    "unit_key": "D2A7918E-43D7-435E-A1E7-C304C80E071F_PatientsAtDepartment",
+    "unit_key_id": 417
+  },
+  {
+    "client_id": 2015,
+    "name": "A1",
+    "client": {
+      "ts_start_days_ago": 1,
+      "client_id": 2015,
+      "client_key": "PatientCapacity",
+      "aux_start_days_ago": 0
+    },
+    "unit_key": "1B0E30E0-9370-410B-9619-431114FA184A_PatientsAtDepartment",
+    "unit_key_id": 418
+  },
+  {
+    "client_id": 2015,
+    "name": "A2",
+    "client": {
+      "ts_start_days_ago": 1,
+      "client_id": 2015,
+      "client_key": "PatientCapacity",
+      "aux_start_days_ago": 0
+    },
+    "unit_key": "BB3C391E-AD71-4272-ADE5-277BB7247347_PatientsAtDepartment",
+    "unit_key_id": 419
+  },
+  {
+    "client_id": 2015,
+    "name": "Plastikkirurgisk",
+    "client": {
+      "ts_start_days_ago": 1,
+      "client_id": 2015,
+      "client_key": "PatientCapacity",
+      "aux_start_days_ago": 0
+    },
+    "unit_key": "69089122-4CDD-4555-A631-9C343B988356_PatientsAtDepartment",
+    "unit_key_id": 420
+  },
+  {
+    "client_id": 2015,
+    "name": "AMA",
+    "client": {
+      "ts_start_days_ago": 1,
+      "client_id": 2015,
+      "client_key": "PatientCapacity",
+      "aux_start_days_ago": 0
+    },
+    "unit_key": "0916C338-D17C-435E-90CE-6E2DE5B69866_PatientsAtDepartment",
+    "unit_key_id": 421
+  },
+  {
+    "client_id": 2015,
+    "name": "Kardiologisk S1",
+    "client": {
+      "ts_start_days_ago": 1,
+      "client_id": 2015,
+      "client_key": "PatientCapacity",
+      "aux_start_days_ago": 0
+    },
+    "unit_key": "40CEDED7-DD3E-4AD8-A4FC-B8C8C0F5A6EC_PatientsAtDepartment",
+    "unit_key_id": 422
+  },
+  {
+    "client_id": 2015,
+    "name": "Kardiologisk S2",
+    "client": {
+      "ts_start_days_ago": 1,
+      "client_id": 2015,
+      "client_key": "PatientCapacity",
+      "aux_start_days_ago": 0
+    },
+    "unit_key": "10BB7D0E-2D9C-4E41-B0A7-736B6CBEDC85_PatientsAtDepartment",
+    "unit_key_id": 423
+  },
+  {
+    "client_id": 2015,
+    "name": "Karkirurgisk V",
+    "client": {
+      "ts_start_days_ago": 1,
+      "client_id": 2015,
+      "client_key": "PatientCapacity",
+      "aux_start_days_ago": 0
+    },
+    "unit_key": "A42C7BE9-1282-4CAA-A5A5-0FD4CA9AACF7_PatientsAtDepartment",
+    "unit_key_id": 424
+  },
+  {
+    "client_id": 2015,
+    "name": "Hjerte-Lungekirurgisk T",
+    "client": {
+      "ts_start_days_ago": 1,
+      "client_id": 2015,
+      "client_key": "PatientCapacity",
+      "aux_start_days_ago": 0
+    },
+    "unit_key": "1F68075B-8CBF-4FD5-95C5-EA2210482D0A_PatientsAtDepartment",
+    "unit_key_id": 425
+  },
+  {
+    "client_id": 2015,
+    "name": "Patienthotel",
+    "client": {
+      "ts_start_days_ago": 1,
+      "client_id": 2015,
+      "client_key": "PatientCapacity",
+      "aux_start_days_ago": 0
+    },
+    "unit_key": "2F8AAB99-4EEE-48B8-827B-EA65F59C3E12_PatientsAtDepartment",
+    "unit_key_id": 426
+  },
+  {
+    "client_id": 2015,
+    "name": "NHH",
+    "client": {
+      "ts_start_days_ago": 1,
+      "client_id": 2015,
+      "client_key": "PatientCapacity",
+      "aux_start_days_ago": 0
+    },
+    "unit_key": "ABA6FB05-6404-48A6-BC53-81C93AD07297_PatientsAtDepartment",
+    "unit_key_id": 427
+  },
+  {
+    "client_id": 2015,
+    "name": "Onkologisk D1",
+    "client": {
+      "ts_start_days_ago": 1,
+      "client_id": 2015,
+      "client_key": "PatientCapacity",
+      "aux_start_days_ago": 0
+    },
+    "unit_key": "8F34B4FD-2D90-4EEC-8E5A-4FD1313C9AEC_PatientsAtDepartment",
+    "unit_key_id": 428
+  },
+  {
+    "client_id": 2015,
+    "name": "Onkologisk D3",
+    "client": {
+      "ts_start_days_ago": 1,
+      "client_id": 2015,
+      "client_key": "PatientCapacity",
+      "aux_start_days_ago": 0
+    },
+    "unit_key": "45BFB2B2-4B02-4E77-999C-DFBE84991C4C_PatientsAtDepartment",
+    "unit_key_id": 429
+  },
+  {
+    "client_id": 2015,
+    "name": "Palliativ Farsø",
+    "client": {
+      "ts_start_days_ago": 1,
+      "client_id": 2015,
+      "client_key": "PatientCapacity",
+      "aux_start_days_ago": 0
+    },
+    "unit_key": "550F106C-E05C-4DB3-BF00-D4FDFFD90AA7_PatientsAtDepartment",
+    "unit_key_id": 430
+  },
+  {
+    "client_id": 2015,
+    "name": "O1",
+    "client": {
+      "ts_start_days_ago": 1,
+      "client_id": 2015,
+      "client_key": "PatientCapacity",
+      "aux_start_days_ago": 0
+    },
+    "unit_key": "155D12A9-18A1-4FD5-8C88-0E97BD89144F_PatientsAtDepartment",
+    "unit_key_id": 431
+  },
+  {
+    "client_id": 2015,
+    "name": "O2",
+    "client": {
+      "ts_start_days_ago": 1,
+      "client_id": 2015,
+      "client_key": "PatientCapacity",
+      "aux_start_days_ago": 0
+    },
+    "unit_key": "2DAA5905-2DB7-4F6E-A444-0BBE686AC12F_PatientsAtDepartment",
+    "unit_key_id": 432
+  },
+  {
+    "client_id": 2015,
+    "name": "Ortopædkir OK3 Frederikshavn",
+    "client": {
+      "ts_start_days_ago": 1,
+      "client_id": 2015,
+      "client_key": "PatientCapacity",
+      "aux_start_days_ago": 0
+    },
+    "unit_key": "ACCE0D78-7973-44B8-B58F-19F37C63C52A_PatientsAtDepartment",
+    "unit_key_id": 433
+  },
+  {
+    "client_id": 2015,
+    "name": "O4 Farsø",
+    "client": {
+      "ts_start_days_ago": 1,
+      "client_id": 2015,
+      "client_key": "PatientCapacity",
+      "aux_start_days_ago": 0
+    },
+    "unit_key": "94F40441-7484-4DCC-B9CD-1E17F90A63B6_PatientsAtDepartment",
+    "unit_key_id": 434
+  },
+  {
+    "client_id": 2015,
+    "name": null,
+    "client": {
+      "ts_start_days_ago": 1,
+      "client_id": 2015,
+      "client_key": "PatientCapacity",
+      "aux_start_days_ago": 0
+    },
+    "unit_key": "0EF90753-64BF-45D6-B71A-4DE42B4637AB_PatientsAtDepartment",
+    "unit_key_id": 435
+  },
+  {
+    "client_id": 2015,
+    "name": "Urologisk",
+    "client": {
+      "ts_start_days_ago": 1,
+      "client_id": 2015,
+      "client_key": "PatientCapacity",
+      "aux_start_days_ago": 0
+    },
+    "unit_key": "D11A726D-5457-40AF-BD58-F0268F7A2CEE_PatientsAtDepartment",
+    "unit_key_id": 436
+  },
+  {
+    "client_id": 2015,
+    "name": "Neurologisk",
+    "client": {
+      "ts_start_days_ago": 1,
+      "client_id": 2015,
+      "client_key": "PatientCapacity",
+      "aux_start_days_ago": 0
+    },
+    "unit_key": "3C99DB88-74B5-4B24-AA1F-70BDB19D8CBF_PatientsAtDepartment",
+    "unit_key_id": 437
+  },
+  {
+    "client_id": 2015,
+    "name": "AMA Hobro",
+    "client": {
+      "ts_start_days_ago": 1,
+      "client_id": 2015,
+      "client_key": "PatientCapacity",
+      "aux_start_days_ago": 0
+    },
+    "unit_key": "0EB02569-8976-4C09-B5A2-192DB97A90E9_PatientsAtDepartment",
+    "unit_key_id": 438
+  },
+  {
+    "client_id": 2015,
+    "name": "M1 Hobro",
+    "client": {
+      "ts_start_days_ago": 1,
+      "client_id": 2015,
+      "client_key": "PatientCapacity",
+      "aux_start_days_ago": 0
+    },
+    "unit_key": "5FEE3094-4E50-42E2-A188-4D62CC179FBB_PatientsAtDepartment",
+    "unit_key_id": 439
+  },
+  {
+    "client_id": 2015,
+    "name": "M3 Hobro",
+    "client": {
+      "ts_start_days_ago": 1,
+      "client_id": 2015,
+      "client_key": "PatientCapacity",
+      "aux_start_days_ago": 0
+    },
+    "unit_key": "6FC68E8B-AF1E-4DA1-A450-217BED9A6E07_PatientsAtDepartment",
+    "unit_key_id": 440
+  },
+  {
+    "client_id": 2015,
+    "name": "Døgnafsnit for børn og unge",
+    "client": {
+      "ts_start_days_ago": 1,
+      "client_id": 2015,
+      "client_key": "PatientCapacity",
+      "aux_start_days_ago": 0
+    },
+    "unit_key": "2B358BB2-F067-4755-9AE1-5C1BF8937B65_PatientsAtDepartment",
+    "unit_key_id": 441
+  },
+  {
+    "client_id": 2015,
+    "name": "Intensiv 103",
+    "client": {
+      "ts_start_days_ago": 1,
+      "client_id": 2015,
+      "client_key": "PatientCapacity",
+      "aux_start_days_ago": 0
+    },
+    "unit_key": "E9354268-429A-41F1-8160-E49533F2E509_PatientsAtDepartment",
+    "unit_key_id": 442
+  },
+  {
+    "client_id": 2015,
+    "name": "Intensiv afsnit R",
+    "client": {
+      "ts_start_days_ago": 1,
+      "client_id": 2015,
+      "client_key": "PatientCapacity",
+      "aux_start_days_ago": 0
+    },
+    "unit_key": "FEBA02A0-F7D8-4A1A-BE81-03CAE6EA35AE_PatientsAtDepartment",
+    "unit_key_id": 443
+  },
+  {
+    "client_id": 2015,
+    "name": "Intensiv NOTIA",
+    "client": {
+      "ts_start_days_ago": 1,
+      "client_id": 2015,
+      "client_key": "PatientCapacity",
+      "aux_start_days_ago": 0
+    },
+    "unit_key": "F75B9465-0995-4B11-A564-168D70E98D51_PatientsAtDepartment",
+    "unit_key_id": 444
+  },
+  {
+    "client_id": 2015,
+    "name": "Intensiv TIA",
+    "client": {
+      "ts_start_days_ago": 1,
+      "client_id": 2015,
+      "client_key": "PatientCapacity",
+      "aux_start_days_ago": 0
+    },
+    "unit_key": "48BC4112-12B9-4BE6-B48F-700817100F37_PatientsAtDepartment",
+    "unit_key_id": 445
+  },
+  {
+    "client_id": 2015,
+    "name": "Hjertemedicin - 202",
+    "client": {
+      "ts_start_days_ago": 1,
+      "client_id": 2015,
+      "client_key": "PatientCapacity",
+      "aux_start_days_ago": 0
+    },
+    "unit_key": "9852BF6D-05AD-4D1E-98AF-C7F450DE5B5D_PatientsAtDepartment",
+    "unit_key_id": 446
+  },
+  {
+    "client_id": 2016,
+    "name": null,
+    "client": {
+      "ts_start_days_ago": 0,
+      "client_id": 2016,
+      "client_key": "CleaningCapacity",
+      "aux_start_days_ago": 0
+    },
+    "unit_key": "e256fee0-826c-42e2-80d7-b4694b0ba089",
+    "unit_key_id": 447
+  }
+]

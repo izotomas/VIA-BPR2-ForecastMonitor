@@ -1,0 +1,50 @@
+.client {
+    header {
+        margin-bottom: 0.5rem;
+        border: 1px solid transparent;
+        user-select: none;
+        transition: 0.3s;
+        cursor: pointer;
+
+        display: flex;
+        place-content: center flex-start;
+        align-items: center;
+
+        &:hover {
+            padding-left: 0.5rem;
+        }
+
+        &:after {
+            margin-left: 1rem;
+            display: inline-block;
+            font: normal normal normal 14px/1 FontAwesome;
+            font-size: 1.3rem;
+            text-rendering: auto;
+            content: "\f0d7";
+            transform: rotate(-180deg);
+            transition: all linear 0.25s;
+        }
+
+        &.collapsed:after {
+            transform: rotate(0deg);
+        }
+    }
+
+    .content {
+        margin-bottom: 2rem;
+        display: grid;
+        grid-gap: 2rem;
+
+        @media(min-width: 768px) {
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+        @media(min-width: 1024px) {
+            grid-template-columns: repeat(3, 1fr);
+        }
+
+        @media(min-width: 1440px) {
+            grid-template-columns: repeat(4, 1fr);
+        }
+    }
+}

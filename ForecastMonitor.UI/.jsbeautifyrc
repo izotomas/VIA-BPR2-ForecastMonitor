@@ -1,0 +1,16 @@
+{
+    "js": {
+        "allowed_file_extensions": ["js", "ts"],
+        "comma_first": true,
+        "max_preserve_newlines": 2,
+        "break_chained_methods": true,
+        "brace_style": "collapse,preserve-inline"
+    },
+    "json": {
+        "comma_first": false
+    },
+    "css": {
+        "allowed_file_extensions": ["css", "scss"],
+        "selector_separator_newline": false
+    }
+}

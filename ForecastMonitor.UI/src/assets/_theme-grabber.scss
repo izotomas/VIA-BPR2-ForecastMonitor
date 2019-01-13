@@ -1,0 +1,75 @@
+@mixin theme-color-grabber($theme) {
+    // Parse the theme and create variables for each color in the pallete
+    $primary: map-get($theme, primary);
+    $accent: map-get($theme, accent);
+    $warn: map-get($theme, warn);
+
+    /* Create theme specfic styles */
+    .primary-background {
+        background-color: mat-color($primary);
+    }
+
+    .primary-text {
+        color: mat-color($primary);
+    }
+
+    .primary-border-hover {
+        &:hover {
+            border-color: mat-color($primary) !important;
+        }
+    }
+
+    .accent-background {
+        background-color: mat-color($accent);
+    }
+
+    .accent-text {
+        color: mat-color($accent);
+    }
+
+    .accent-border {
+        border: 1px solid mat-color($accent);
+    }
+
+    .accent-border-hover {
+        &:hover {
+            border: 1px solid mat-color($accent);
+        }
+    }
+
+    .accent-text-down {
+        & * {
+            color: mat-color($accent) !important;
+        }
+    }
+
+    .accent-text-hover {
+        &:hover {
+            color: mat-color($accent) !important;
+        }
+    }
+
+    .warn-background {
+        background-color: mat-color($warn);
+    }
+
+    .warn-text, .nav-link.active {
+        color: mat-color($warn) !important;
+    }
+
+    .warn-text-down {
+        & * {
+            color: mat-color($warn) !important;
+        }
+    }
+
+    .warn-border {
+        border: 1px solid mat-color($warn);
+    }
+
+    .warn-border-hover {
+        &:hover {
+            border: 1px solid mat-color($warn);
+        }
+    }
+}

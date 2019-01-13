@@ -1,0 +1,27 @@
+.dashboard {
+    padding-top: 5rem;
+
+    @media(max-width: 425px) {
+        padding-top: 2rem;
+    }
+
+    .page-header {
+        h2 {
+            @media(max-width: 425px) {
+                font-size: 1.9rem;
+            }
+        }
+    }
+
+    #installations-section {
+        margin-top: 5rem;
+
+        @media(max-width: 425px) {
+            margin-top: 2rem;
+        }
+    }
+
+    #clients-section {
+        padding-left: 1rem;
+    }
+}

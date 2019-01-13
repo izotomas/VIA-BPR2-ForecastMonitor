@@ -1,0 +1,27 @@
+mat-card {
+    cursor: pointer;
+}
+
+mat-card-content {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+
+    .card-column {
+        display: grid;
+        align-items: center;
+        grid-row-gap: 0.5rem;
+
+        &.nested {
+            grid-template-columns: 1fr 1fr;
+            grid-gap: 0.5rem;
+        }
+
+        &.center {
+            justify-items: center;
+        }
+    }
+
+    .model-name {
+        font-size: 1.2rem;
+    }
+}

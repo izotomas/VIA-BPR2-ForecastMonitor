@@ -1,0 +1,12 @@
+<div class="dashboard container">
+    <div class="page-header">
+        <h2 *ngIf="pageHeader; else loading">{{pageHeader}}</h2>
+    </div>
+    <div id="installations-section" fxLayout="column" fxLayoutAlign="center" fxLayoutGap="1rem" *ngIf="(installations$ | async) as installations; else loading">
+        <app-installation *ngFor="let installation of installations" [model]="installation" [unitLabel]="unitLabel" (reportStatus)="orderInstallations($event)"></app-installation>
+    </div>
+</div>
+
+<ng-template #loading>
+    <mat-progress-bar mode="indeterminate"></mat-progress-bar>
+</ng-template>

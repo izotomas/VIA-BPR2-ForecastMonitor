@@ -1,0 +1,12 @@
+{
+    "navigation": {
+        "brand": "Forecast Monitor"
+        , "modelPerformance": "Model Performance"
+    }
+    , "dashboard": {
+        "pageHeader": "Forecast monitoring service"
+    }
+    , "model": {
+        "label": "Forecast MAE"
+    }
+}
