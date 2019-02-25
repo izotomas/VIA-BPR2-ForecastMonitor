@@ -263,3 +263,6 @@ __pycache__/
 /ForecastMonitor/logs
 /ForecastMonitor.UI/dist
 /ForecastMonitor.UI/documentation
+
+# Mac DS_Store
+.DS_Store
